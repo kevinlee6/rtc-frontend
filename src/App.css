@@ -1,0 +1,164 @@
+/* START GLOBAL */
+body {
+	font-size: 1.2em;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.main-content {
+    width: 100%;
+}
+
+.public-chat > *:not(:first-child) {
+    padding: 3vh 2vw;
+}
+
+.active-conversation {
+    color: blue;
+}
+
+.center-text {
+    display: block;
+    text-align: center;
+}
+
+.toggle {
+    width: 100%;
+}
+
+.headers {
+    padding: 10px;
+}
+
+.conversation-title {
+    background: rgba(244, 244, 244, 0.5);
+}
+/* END GLOBAL */
+
+/* AFTER LOGIN WRAPPER START */
+.after-login-wrapper {
+    display: flex;
+}
+
+/*.after-login-wrapper > * {*/
+	/*padding-top: 2vh;*/
+	/*padding-left: 2vw;*/
+/*}*/
+/* AFTER LOGIN WRAPPER END */
+
+/* BEFORE LOGIN WRAPPER START */
+.before-login-wrapper {
+    background: #eee url('./media/gif-1.gif') center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 10vh 25vw;
+    color: white;
+}
+/* BEFORE LOGIN WRAPPER END */
+
+/* START NAVBAR */
+.navbar-left {
+	display: flex;
+	flex-direction: column;
+	width: 20vw;
+	height: 100vh;
+	background: lightslategray;
+    padding-top: 2vh;
+    padding-left: 2vw;
+}
+
+.navbar-left > a {
+	color: #eee;
+	text-decoration: none;
+	margin: 1vh 0;
+}
+
+.navbar-left > a:hover {
+	color: #009;
+	font-weight: 600;
+}
+
+.navbar-left > .active {
+	color: #00b;
+    font-weight: 500;
+}
+/* END NAVBAR */
+
+/* FORM START */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(233,233,233, 0.2);
+    padding: 10% 20%;
+}
+
+.login-form > form {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.login-btn {
+    width: 40%;
+}
+/* FORM END */
+
+/* PUBLIC CHAT START */
+.public-chat {
+    display: flex;
+}
+
+.conversations-wrapper {
+    border-right: 1px grey solid;
+    height: 100vh;
+}
+
+.conversations-container {
+    height: 60vh;
+    overflow: auto;
+}
+
+.conversations:hover {
+    cursor: pointer;
+    color: blue;
+    font-weight: 600;
+}
+
+.messages-container {
+    overflow: auto;
+    height: 70vh;
+    width: 40vw;
+}
+
+.message-to-tab {
+    margin-left: 30px;
+}
+
+.textbox-and-submit {
+    display: flex;
+    align-items: center;
+}
+
+.textbox-and-submit > textarea {
+    width: 33vw;
+}
+
+.username-timestamp {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+/* PUBLIC CHAT END */
+
